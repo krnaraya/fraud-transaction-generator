@@ -34,7 +34,7 @@ We have Openshift extension installed and hence the above command will package a
 
 Browse the URL that is exposed for the container as part of the build process 
 
-Select the CSV file to upload - Sample file is available in resources folder and click submit.
+Select the CSV file to upload - Sample file (creditcard_1000.csv) is available in resources folder and click submit.
 
 This will parse the csv, convert it into json file and produce the records to kafka and tell you haow many records were produced at the end.
 
