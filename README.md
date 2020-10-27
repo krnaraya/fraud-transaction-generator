@@ -8,13 +8,13 @@ If you want to learn more about Quarkus, please visit its website: https://quark
 
 Install a Openshift 4.x Cluster - Refer https://docs.openshift.com/container-platform/4.5/welcome/index.html
 
-Create a Openshift project (namesapce) with any name.
+Install the demo of MLOps from this repository https://github.com/rhappdev-demo/fraud_detection
 
-Install AMQ Streams Operator in Openshift Cluster on to this namesapce  - Refer https://access.redhat.com/documentation/en-us/red_hat_amq/7.7/html/deploying_and_upgrading_amq_streams_on_openshift/deploy-intro_str
+This should have created a fraud-demo-dev namespace, if you provided "fraud-demo" as the project fix. Else naviagate to <prj_prefix>_dev namespace.
+
+Install AMQ Streams Operator in Openshift Cluster on to this (<prj_prefix>_dev) namespace  - Refer https://access.redhat.com/documentation/en-us/red_hat_amq/7.7/html/deploying_and_upgrading_amq_streams_on_openshift/deploy-intro_str
 
 Install a Kafka Cluster (name it my-cluster, if not feel free the update the application properties to the correct kafka configuration) from the AMQ streams operator - Refer https://access.redhat.com/documentation/en-us/red_hat_amq/7.7/html/deploying_and_upgrading_amq_streams_on_openshift/deploy-tasks_str#kafka-cluster-str
-
-Create a Kafka  Topic named transactions from the AMQ streams Operator
 
 
 ## Packaging and running the application
